@@ -2,7 +2,6 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import {Button}  from '../Button';
-
 //Images
 import clown from '../../images/clown.jpg';
 import hm from '../../images/hm.jpg';
@@ -16,13 +15,14 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            
+          
             <CardItem
-              src={hm}
-              
-              label='Luxury'
-            //  path='/services'
-            />
+              src={clown}
+              label='Masqaraboz'
+              path="/Clown.js"
+             />
+            
+            
             <CardItem
               src={hm}
               label='Luxury'

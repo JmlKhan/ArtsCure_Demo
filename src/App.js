@@ -7,6 +7,9 @@ import Home from "./components/pages/Home";
 import Paintings from "./components/pages/Paintings";
 import About from "./components/pages/About";
 import Artists from "./components/pages/Artists";
+// importing paintings
+
+import Clown from '../src/components/paintings/Clown';
 
 
 
@@ -19,11 +22,11 @@ function App() {
            <Route path='/' exact component = 
            {Home}
            />
-           <Route path="/paintings" component={Paintings} />
+           <Route path="/Paintings" component={Paintings} />
            <Route path="/About" component={About} />
            <Route path="/Artists" component={Artists} />
-           <Route path="/sign-up" component={Artists} />
-          
+           <Route path="/Paintings" component={Artists} />
+           <Route path="/Clown.js" component={Clown} />
          </Switch>
       </Router>
     </div>

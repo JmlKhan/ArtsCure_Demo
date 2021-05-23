@@ -1,6 +1,15 @@
 import React from "react";
 import '../../App.css';
+import Cards from '../pages/Cards';
 
-export default function Paintings() {
-    return <h1 className='paintings'>Paintings</h1>
+const Paintings = () => {
+    return ( 
+        <>
+            <Cards   />
+           
+
+        </>
+     );
 }
+ 
+export default Paintings;

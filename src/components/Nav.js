@@ -59,7 +59,7 @@ const Nav = () => {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link className='nav-links-mobile' onClick={closeMobileMenu}>
+                        <Link to ="/About" className='nav-links-mobile' onClick={closeMobileMenu}>
                           Contact Us  
                         </Link>
                     </li>
